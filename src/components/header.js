@@ -1,3 +1,9 @@
-const Header = <h1>Appffirmations</h1>
+function Header() {
+  return (
+    <header>
+      <h1>Appffirmations</h1>
+    </header>
+  );
+}
 
-export default Header
+export default Header;
