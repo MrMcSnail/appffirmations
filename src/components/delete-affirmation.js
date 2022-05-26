@@ -1,6 +1,6 @@
   
   const deleteAffirmation = (appffirmationList, affirmation)=>{
-  console.log(appffirmationList, affirmation)
+ 
   
   }
 
