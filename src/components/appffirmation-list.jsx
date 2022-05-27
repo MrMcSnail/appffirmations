@@ -1,4 +1,5 @@
 import React from "react";
+import AddAffirmation from "./add-affirmation.jsx";
 import AffirmationCard from "./affirmation-card.jsx"
 
 const appffArr = [
@@ -13,9 +14,13 @@ function AppffirmationList() {
     const { affirmation, said } = affirmationObj;
 
     return (
-     <AffirmationCard affirmation = {affirmation} said ={said} setAppffirmationList = {setAppffirmationList} />
+    <AffirmationCard affirmation = {affirmation} said ={said} setAppffirmationList = {setAppffirmationList} />
     );
   });
-  return <ul className='affirmations'>{appffList}</ul>;
+  return <>
+  <ul className='affirmations'>{appffList}</ul>
+  <AddAffirmation setAffirmationList={setAppffirmationList}/>
+  </>
 }
+
 export default AppffirmationList;

@@ -1,11 +1,11 @@
 import deleteAffirmation from "./delete-affirmation"
-
+import incrementSaidTimes from "./increment-said-times";
 
 const AffirmationCard = ({affirmation, said, setAppffirmationList}) => {
 return(
-<li id={affirmation} key={affirmation}>
+<li onClick={()=>{incrementSaidTimes(setAppffirmationList, affirmation)}} id={affirmation} key={affirmation}>
 <h2>
-  {said} {affirmation}
+  {affirmation}<p>said: {said} </p>
 </h2>
 <button
   id={affirmation}
