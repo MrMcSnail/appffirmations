@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,15 +15,17 @@
 }
 
 .App-header {
+  background-image: url("/Users/Kyle/northcoders/frontend/appffirmations/src/top-of-fold.png");
+  width: 1000px;
+  object-fit: scale-down;
   background-color: #282c34;
   min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
+  margin: auto;
 }
 
 .affirmations{
@@ -43,8 +44,14 @@ background-color: #282c34;
 color: white;
 }
 
+.addForm {
+  margin : 20px;
+border : 10px solid rgb(212, 212, 212);
+border-radius : 25px;
+background-color: #282c34;
+color: white;
+}
 button {
-  position:relative; 
   border-radius: 5px; 
   float: right;
   margin:10px;

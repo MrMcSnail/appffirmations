@@ -1,7 +1,6 @@
 function Header() {
   return (
     <header className="App-header">
-      <h1>Appffirmations</h1>
     </header>
   );
 }

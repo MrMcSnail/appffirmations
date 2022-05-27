@@ -17,9 +17,9 @@ const AddAffirmation = ({ setAffirmationList }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Add a new affirmation:  </label>
+    <form className='addForm' onSubmit={handleSubmit}>
+      <label> <h2>Add a new affirmation:  </h2>
+        </label>
         <br/>
         <input
           type='text'

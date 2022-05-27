@@ -14,7 +14,6 @@ function App() {
         <main>
           <AppffirmationList />
         </main>
-      
       </div>
     </>
   );
