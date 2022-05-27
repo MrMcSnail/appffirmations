@@ -1,6 +1,8 @@
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -15,18 +17,53 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.affirmations{
+    list-style-type : none;
+    align-items: center;
+    text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+.affirmation-card {
+margin : 20px;
+border : 10px solid rgb(212, 212, 212);
+border-radius : 25px;
+background-color: #282c34;
+color: white;
+}
+
+button {
+  position:relative; 
+  border-radius: 5px; 
+  float: right;
+  margin:10px;
+  margin-top: 10px;
+  }
+
+.inner-affirmation {
+  display : inline-block;
+  font-size: 1 rem;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10
+  px;
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -34,6 +71,4 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
+  }}

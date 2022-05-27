@@ -19,14 +19,15 @@ const AddAffirmation = ({ setAffirmationList }) => {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Add a new affirmation:
+        Add a new affirmation:  </label>
+        <br/>
         <input
           type='text'
           name='affirmation'
           value={newAffirmation}
           onChange={(event) => setNewAffirmation(event.target.value)}
         />
-      </label>
+    <br/>
       <button type='submit'>Commit</button>
     </form>
   );
